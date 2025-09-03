@@ -18,7 +18,7 @@ const Homepage = () => {
         <div className="h-1/2 lg:h-full lg:w-5/12 flex justify-center items-center my-6 md:my-0">
           <div className="deneme"></div>
         </div>
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center text-white">
+        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center mt-6 text-white">
           <h1 className="text-4xl md:text-6xl font-bold">
             Omar Mandour   <br />
             <span className="md:text-5xl">
