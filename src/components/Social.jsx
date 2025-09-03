@@ -33,7 +33,7 @@ function Social() {
         <FaLinkedin className="text-5xl hover:scale-[1.35]" />
       </Link>
       <Link
-        href="https://linktr.ee/"
+        href="https://linktr.ee/Omar_Mandour"
         target="_blank"
         aria-label="Linktr Link"
       >
