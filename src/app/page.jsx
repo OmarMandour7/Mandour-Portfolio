@@ -1,6 +1,4 @@
 "use client";
-
-import Cnsole from "console-art-x";
 import { motion } from "framer-motion";
 import Social from "@/components/Social";
 import Animation from "@/components/Animation";
@@ -15,7 +13,6 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <Cnsole />
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 p-20">
         <div className="h-1/2 lg:h-full lg:w-5/12 flex justify-center items-center mb-24 md:mb-0">
           <div className="deneme"></div>
