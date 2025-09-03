@@ -20,18 +20,18 @@ const PortfolioPage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
+      <div className="h-full overflow-y-auto overflow-x-hidden  lg:flex" ref={containerRef}>
         <div>
           <div className="w-screen my-6 flex items-center justify-center text-4xl text-center font-bold text-white">
-                           <AnimationFetured />
+    <AnimationFetured />
           </div>
 
           
-          <div className=" flex justify-center items-center 3 ">
+          <div className=" flex justify-center items-center  ">
               <Card />
           </div>
             
-         
+      
       
         </div>
       </div>
