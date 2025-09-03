@@ -5,12 +5,11 @@ function Animation() {
   return (
   <TypeAnimation
   sequence={[
-   
-     "APIs,",
+    "Front-End Developer (React + Next).",
     2500,
-     "Best Practices",
+    "Building Scalable E-commerce & Platforms.",
     2500,
-    "Clean Code",
+    "Clean Code, APIs, and Best Practices.",
     2500,
   ]}
   speed={30}
