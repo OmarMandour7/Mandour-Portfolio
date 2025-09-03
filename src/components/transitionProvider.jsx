@@ -12,7 +12,7 @@ const TransitionProvider = ({ children }) => {
     <AnimatePresence mode="wait">
       <div
         key={pathName}
-        className="w-screen h-[50rem] bg-gradient-to-b from-slate-900 to-violet-900"
+        className="w-screen h-[60rem] bg-gradient-to-b from-slate-900 to-violet-900"
       >
         <motion.div
           className="h-screen w-screen fixed bg-black rounded-b-[100px] z-40"

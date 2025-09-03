@@ -9,7 +9,8 @@
   background-size: cover;
   box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
   animation: animate 5s ease-in-out infinite;
-  transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; 
+  
 }
 
 @keyframes animate {
