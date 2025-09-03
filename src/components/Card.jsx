@@ -43,9 +43,9 @@ const items = [
 
 function Card() {
   return (
-    <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mx-12 md:mx-0 max-w-3xl  ">
+    <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mx-12 md:mx-0 max-w-3xl items-center justify-center ">
       {items.map((item) => (
-        <motion.div key={item.id} className="flex">
+        <div key={item.id} className="flex">
           <div className="card shadow-xl m-2 bg-opacity-20 bg-white">
             <Image
   src={item.img}
@@ -72,7 +72,7 @@ function Card() {
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
       ))}
     </div>
   );

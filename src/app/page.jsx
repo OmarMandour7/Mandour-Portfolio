@@ -5,13 +5,12 @@ import { motion } from "framer-motion";
 import Social from "@/components/Social";
 import Animation from "@/components/Animation";
 import Link from "next/link";
-import { SiLinktree } from "react-icons/si";
 import { FaArrowRight } from "react-icons/fa";
 
 const Homepage = () => {
   return (
     <motion.div
-      className="h-full"
+      className="h-full "
       initial={{ y: "-200vh" }}
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
@@ -29,7 +28,7 @@ const Homepage = () => {
             </span>
           </h1>
 
-          <p className="md:text-xl">
+          <p className="md:text-xl  font-bold">
            I’m a front-end developer specializing in React.js and Next.js, focused on building modern, responsive,       and high-performance web applications. I care about clean code, great user experience, and scalable design.
 
           </p>
