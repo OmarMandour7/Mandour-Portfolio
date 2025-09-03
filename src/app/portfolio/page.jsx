@@ -22,7 +22,7 @@ const PortfolioPage = () => {
       <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
         <div>
           <div className="w-screen my-6 flex items-center justify-center text-4xl text-center font-bold text-white">
-              Featured Projects ✨
+              Featured Projects 
           </div>
 
           
