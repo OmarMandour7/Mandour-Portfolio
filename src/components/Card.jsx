@@ -38,6 +38,14 @@ const items = [
     link: "https://github.com/OmarMandour7/E-Commerce",
     demo: "",
   },
+    {
+    id: 4,
+    title: "Student Platform ",
+    desc: "A complete e-learning platform that delivers structured content through videos, PDFs, and interactive quizzes.It helps students follow their lessons step by step and integrates seamlessly with Google Classroom for class and group management.",
+    img: "/Demo5.jpg",
+    link: "https://github.com/OmarMandour7/student-platform",
+    demo: "https://studentslearning.netlify.app/",
+  },
 
 ];
 
